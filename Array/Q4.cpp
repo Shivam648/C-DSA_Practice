@@ -10,7 +10,6 @@ int main()
     cout << "Enter the NUmber" << endl;
     for (int i = 0; i < n; i++)
     {
-
         cin >> num[i];
     }
     cout << "Numbers are " << endl;
@@ -21,7 +20,6 @@ int main()
     }
     cout << "\nReverse Numbers are " << endl;
     for (int i = n - 1; i >= 0; i--)
-
     {
         cout << num[i] << " ";
     }
