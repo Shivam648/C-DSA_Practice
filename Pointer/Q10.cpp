@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 void Q(int z)
 {
     z += z;
@@ -11,7 +10,7 @@ void P(int *y)
 {
     int x = *y + 2;
     Q(x);
-    *y = -1;
+    *y = x - 1;
     cout << x << " ";
 }
 
