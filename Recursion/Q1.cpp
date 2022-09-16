@@ -3,11 +3,11 @@ using namespace std;
 
 int factorial(int n)
 {
+    cout << n << endl;
     if (n == 0)
     {
         return 1;
     }
-    cout << n << endl;
     int smalloutput = factorial(n - 1);
     return n * smalloutput;
 }
