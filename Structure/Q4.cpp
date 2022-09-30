@@ -4,7 +4,7 @@ using namespace std;
 
 struct Person
 {
-    char name[50];
+    char name[50];  
     int age;
     float salary;
 };
