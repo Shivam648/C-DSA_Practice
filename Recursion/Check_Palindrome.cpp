@@ -1,4 +1,7 @@
-/* Problem Statement
+/*
+Coding NINJa Question
+
+Problem Statement
 Given an alphabetical string 'S'. Determine whether it is palindrome or not. A palindrome is a string that is equal to itself upon reversing it.
 
 For Example:
